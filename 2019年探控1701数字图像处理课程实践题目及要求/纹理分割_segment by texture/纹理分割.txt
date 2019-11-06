@@ -1,0 +1,4 @@
+要求：利用纹理特征，对图像中不同的纹理区域进行分割。纹理区域的数目根据具体图像设定。
+segment the image by texture information.
+
+

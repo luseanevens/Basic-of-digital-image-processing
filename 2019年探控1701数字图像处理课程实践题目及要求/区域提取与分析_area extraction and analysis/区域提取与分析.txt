@@ -1,0 +1,17 @@
+要求：计算出每个粒子的面积、长轴、短轴。用列表的形式给出计算结果。
+caculate the area of each particles , the long axis , short axis
+提示：(hints)
+1)重叠分离：
+	a)  分水岭方法。先设一个比较大的阈值二值化，则重叠图像会分开，但比原图像小，再逐步降低阈值，直到两个图像又开始重叠，	记下重叠的点。 
+	segment by water-sheld
+	
+	b)  腐蚀法。对图像阈值分割后，用小的结构单元对原图腐蚀，可能造成分离。 
+	then etch to get a rather good sengment result
+	
+2) 面积：
+	对于已经标好号的二值图，计算每个标号对应的象素点数目，乘以每个象素代表的实际面积得到区域的面积。
+    caculate the pixels of each segmented area instead of the true area.
+	
+2)长短轴：
+	即该区域（坐标变换后）垂直和水平的跨度
+	horizon axis and verticle axis

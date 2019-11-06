@@ -1,0 +1,2 @@
+要求：假设图像中所有粒子的形状大小相同。利用形态学算法，计算出图中粒子数目。并生成3幅分别包含孤立、重叠、与边界相接粒子的图。
+assume that the particles are all the same in the size. caculate the number of the particles and give three independent images showing isolating, overlap, adjacent.

@@ -1,0 +1,11 @@
+要求： 根据训练样本进行学习，而后对test图像中的字符进行识别。要求给出识别结果，并对结果进行统计。
+learning by the training samples, and recognize the charachters in the test images.
+
+提示： 
+1) 用Fourier算子，或者是不变矩作特征。用最邻近法(kNN)进行分类。
+2) 其它方法：[Plamondon 2000] Online and off-line handwriting recognition: a comprehensive survey
+[Mori 1992]Historical review of OCR research and development
+
+
+
+其他参考文献请自行调研，提示方法仅供参考。

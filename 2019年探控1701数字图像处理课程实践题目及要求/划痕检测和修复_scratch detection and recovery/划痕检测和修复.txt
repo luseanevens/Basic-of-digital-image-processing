@@ -1,0 +1,25 @@
+要求：1) 检测出图像的划痕，并对相应区域加以标注。
+       scratch detection
+      2) 对标注的划痕区域进行修复。
+	  recover the scratching area
+假设： 划痕可以认为是相对于竖直方向的倾度不大于5的细线条，贯穿图像的全部或部分区域。
+
+
+提示方法：(hints)
+A. 检测(detection)
+1）形态学tophat变换及hough变换。(A类)
+     morphology tophat transform and hough transform
+2）其它方法，仔细调研（关键词 scratch detection) 
+
+B. 修复(recovery)
+1）插值(A类)
+    interpolation
+2）Inpainting
+
+
+说明：（1）如果只完成检测，则算为A类题。
+      （2）可以选择只处理图片数据，也可以选择处理视频数据,或者都做。
+
+
+其他参考文献请自行调研，提示方法仅供参考。
+
